@@ -1,4 +1,4 @@
-const apiKey = '3a7aa8ad34ebcc75b6ac4a790be79729'; // Replace with your OpenWeatherMap API key
+const apiKey = '3a7aa8ad34ebcc75b6ac4a790be79729'; 
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
 async function getWeather() {
@@ -30,3 +30,4 @@ function displayWeather(data) {
         <p>Wind Speed: ${data.wind.speed} m/s</p>
     `;
 }
+

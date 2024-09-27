@@ -7,6 +7,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(../images/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .app-container {
@@ -47,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #010b16;
 }
 
 .weather-info {
